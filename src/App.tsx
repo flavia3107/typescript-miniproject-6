@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import Header from './components/Header.tsx';
-import goalsImg from './assets/goals.jpg';
+import goalsImg from './assets/goals.png';
 import CourseGoals from './components/CourseGoals.tsx';
 import NewGoal from './components/NewGoal.tsx';
 
@@ -24,9 +24,11 @@ function App() {
   }
 
   function handleAddGoal(text: string, summary: string) {
-    setGoals((prevGoals) =>
-      prevGoals.concat({ id: Math.random(), title: text, description: summary })
-    );
+    if (text && summary) {
+      setGoals((prevGoals) =>
+        prevGoals.concat({ id: Math.random(), title: text, description: summary })
+      ); 
+    }
   }
 
   return (

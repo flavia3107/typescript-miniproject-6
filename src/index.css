@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  min-height: 100%;
 }
 
 body {
-  min-height: 100vh;
   background: linear-gradient(#f0f6f8, #e0e1e7);
 }
 
@@ -18,7 +18,7 @@ main {
   max-width: 40rem;
   margin: 3rem auto;
   padding: 2rem;
-  background-color: #3a4346;
+  background-color: #fdfdfda8;
   color: #f0f6f8;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -41,7 +41,7 @@ img {
 header h1 {
   margin: 0;
   font-size: 1.75rem;
-  color: #f7e596;
+  color: #5a5a5a;
 }
 
 label {
@@ -49,14 +49,14 @@ label {
   font-size: 0.85rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #dfd9be;
+  color: #8c8c8c;
 }
 
 input {
   font: inherit;
   width: 100%;
   padding: 0.5rem;
-  background-color: #b4b6c4;
+  background-color: #dcdde4;
   border: none;
   border-radius: 4px;
 }
@@ -66,7 +66,7 @@ form button {
   width: 100%;
   padding: 0.75rem;
   margin-top: 1rem;
-  background-color: #f7e596;
+  background-color: #fcd242;
   border: none;
   border-radius: 4px;
   font: inherit;
@@ -76,7 +76,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #f9e175;
+  background-color: #fddd73;
 }
 
 ul {
@@ -89,10 +89,10 @@ ul {
 }
 
 li {
-  background-color: #475357;
+  background-color: #363636;
   padding: 1rem;
   border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 
 li article {
@@ -104,13 +104,13 @@ li article {
 li h2 {
   margin: 0;
   font-size: 1.25rem;
-  color: #b1c1c3;
+  color: #cfdadb;
 }
 
 li p {
   margin: 0;
   font-size: 0.85rem;
-  color: #dfd9be;
+  color: #b7b7b7;
 }
 
 li button {
